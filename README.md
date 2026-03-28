@@ -41,8 +41,8 @@ A full-stack web application that helps students plan their study schedule and t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abdelrahmanbaraka/smart-study-buddy.git
-cd smart-study-buddy
+git clone https://github.com/Abdelrahmanbaraka/smart-study-buddy
+.git cd smart-study-buddy
 
 
 2. Backend Setup
