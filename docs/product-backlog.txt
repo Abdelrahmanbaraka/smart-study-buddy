@@ -1,0 +1,25 @@
+Product Backlog – Smart Study Buddy
+
+1. Benutzerregistrierung
+- Als Nutzer möchte ich mich registrieren, damit ich ein persönliches Konto habe.
+
+2. Benutzerlogin
+- Als Nutzer möchte ich mich einloggen, damit ich meine Lernziele verwalten kann.
+
+3. Lernziel erstellen
+- Als Nutzer möchte ich ein Lernziel anlegen, damit ich meine Prüfung strukturiert vorbereiten kann.
+
+4. Lernziele anzeigen
+- Als Nutzer möchte ich meine Lernziele sehen, damit ich den Überblick behalte.
+
+5. Automatische Aufgabenerstellung
+- Als Nutzer möchte ich, dass das System automatisch Lernaufgaben erstellt, damit ich nicht alles manuell planen muss.
+
+6. Aufgaben anzeigen
+- Als Nutzer möchte ich meine täglichen Aufgaben sehen.
+
+7. Aufgabenstatus ändern
+- Als Nutzer möchte ich Aufgaben als erledigt markieren können.
+
+8. Fortschritt anzeigen
+- Als Nutzer möchte ich meinen Lernfortschritt in Prozent sehen.

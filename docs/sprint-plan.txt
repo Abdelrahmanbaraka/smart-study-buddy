@@ -1,0 +1,22 @@
+Sprint-Plan – Smart Study Buddy
+
+Sprint 1:
+- Projektidee finalisieren
+- Anforderungen definieren
+- Datenmodell planen
+- Backend- und Frontend-Struktur einrichten
+
+Sprint 2:
+- Benutzerregistrierung und Login umsetzen
+- Datenbankverbindung herstellen
+- Lernziele speichern
+
+Sprint 3:
+- Automatische Generierung von Lernaufgaben umsetzen
+- Aufgaben anzeigen
+
+Sprint 4:
+- Aufgabenstatus ändern
+- Fortschritt anzeigen
+- Testen und Fehler beheben
+- Dokumentation vorbereiten

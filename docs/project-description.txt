@@ -1,0 +1,13 @@
+Projektname: Smart Study Buddy
+
+Beschreibung:
+Smart Study Buddy ist eine kleine Fullstack-Webanwendung zur Unterstützung von Studierenden bei der Lernplanung. Nutzerinnen und Nutzer können ein Lernziel mit Titel, Prüfungsdatum, Anzahl der Themen und verfügbarer Lernzeit pro Tag anlegen. Auf Basis dieser Angaben erstellt das System automatisch eine einfache Lernplanung in Form von täglichen Aufgaben. Zusätzlich können Aufgaben als erledigt markiert und der Lernfortschritt angezeigt werden.
+
+Ziel:
+Ziel des Projekts ist die Entwicklung einer kleinen, benutzerfreundlichen Webanwendung, die den Lernprozess strukturiert und eine übersichtliche Planung für Prüfungen ermöglicht.
+
+Technologien:
+Frontend: React
+Backend: Node.js mit Express
+Datenbank: PostgreSQL
+Authentifizierung: JWT
