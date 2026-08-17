@@ -1,92 +1,80 @@
-# 📚 Smart Study Buddy
+# Smart Study Buddy
 
-A full-stack web application that helps students plan their study schedule and track their progress efficiently.
+A full-stack study-planning prototype that turns an exam goal into manageable tasks and tracks completion progress.
 
-## 🚀 Features
+## Features
 
-- User authentication (Register & Login with JWT)
-- Create study goals
-- Automatic task generation based on exam date
-- Task management (todo / in-progress / done)
-- Progress tracking (%)
-- Protected routes
-- Full frontend + backend integration
+- Registration and login with JWT-based authentication
+- Password hashing with bcrypt
+- Creation of study goals and exam dates
+- Generation of study tasks across the available study period
+- Task states for planned, active and completed work
+- Progress calculation based on completed tasks
+- Protected frontend routes
+- PostgreSQL persistence through the backend API
 
----
+## Technology stack
 
-## 🛠️ Tech Stack
+| Layer | Technology |
+|---|---|
+| Frontend | React 19, Vite, React Router, Axios |
+| Backend | Node.js, Express 5 |
+| Database | PostgreSQL |
+| Authentication | JWT, bcryptjs |
 
-### Frontend
-- React (Vite)
-- Axios
-- React Router
+## Repository structure
 
-### Backend
-- Node.js
-- Express
-- PostgreSQL
+```text
+smart-study-buddy/
+├── backend/    Express API and PostgreSQL access
+├── frontend/   React client
+└── docs/       Supporting project documentation
+```
 
-### Authentication
-- JWT (JSON Web Token)
-- bcrypt (password hashing)
-
----
-
-
-
----
-
-## ⚙️ Installation
+## Local setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abdelrahmanbaraka/smart-study-buddy
-.git cd smart-study-buddy
+git clone https://github.com/Abdelrahmanbaraka/smart-study-buddy.git
+cd smart-study-buddy
+```
 
+### 2. Configure and start the backend
 
-2. Backend Setup
-cd backend
-npm install
-npm run dev
+Create `backend/.env`:
 
-
-3. Frontend Setup
-cd frontend
-npm install
-npm run dev
-🔐 Environment Variables
-
-Create .env file in backend:
-
+```env
 PORT=5000
 DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=postgres
-DB_PASSWORD=yourpassword
+DB_PASSWORD=your_password
 DB_PORT=5432
-JWT_SECRET=your_secret
+JWT_SECRET=replace_with_a_long_random_secret
+```
 
+Then run:
 
+```bash
+cd backend
+npm install
+npm start
+```
 
-🧠 How It Works
-User creates a study goal
-System calculates available days
-Automatically generates daily tasks
-User marks tasks as completed
-Progress is calculated dynamically
+### 3. Start the frontend
 
+In a second terminal:
 
-📈 Future Improvements
-UI/UX enhancements
-Calendar view
-Notifications
-AI-based study recommendations
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
+## Current limitations
 
----
-
-👨‍💻 Author
-Abdelrahman Baraka
-
-
+- This is a learning project, not a production-ready study platform.
+- Local PostgreSQL setup is required.
+- Automated tests and a hosted demo are not included yet.
+- Calendar views, notifications and AI recommendations are possible future extensions, not current features.
